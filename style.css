@@ -9,21 +9,7 @@ body{
     height: auto;
     display: flex;
 }
-/* #header-1st{
-    width: 30%;
-    text-align: center;
 
-}
-#header-2nd{
-    width: 70%;
-    text-align: center;
-    display: flex;
-
-}
-a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-} */
 #header-1st{
     
     width: 30%;
@@ -31,7 +17,7 @@ a{
     padding-left: 8%;
     border: none;
     color: orange;
-    font-size: 40px;
+    font-size: 35px;
     margin-top: -20px;
 
 
@@ -45,7 +31,7 @@ a{
     font-size: 30px;
     border: none;
     display: flex;
-    margin-top: 20px;
+    margin-top: 15px;
     /* margin-left: 100px; */
 
 }
@@ -100,10 +86,10 @@ a{
     margin-top: 50px;
 }
 #about-cover{
-    background-image: url(img/shapes/Frame\ 57.jpg);
+    background-image: url(img/Frame\ 57.jpg);
     background-repeat: no-repeat;
     width: 100%;
-    height: 500px;
+    height: 750px;
     background-size: cover;
     /* border: 2px solid black; */
     background-size: 100% 100%;
@@ -111,15 +97,18 @@ a{
 
 }
 #person-img{
-    height: 450px;
-    width: 50%;
+    height: 700px;
+    width: 60%;
     
     margin-left: 200px;
     margin-top: 49px;
 }
 #about-me-datails{
-    margin-top: 90px;
+    margin-top: 200px;
     margin-left: 180px;
+    /* border: 3px solid red; */
+    width: 30%;
+    text-align: justify;
 }
 #about-me-datails h1{
     
@@ -219,6 +208,9 @@ a{
     margin-top: -20px;
     opacity: 0.6;
 }
+.m_form{
+    font-size: 40px;
+}
 .m_form {
     padding-top: 30px;
     padding-left: 223px;
@@ -283,13 +275,15 @@ footer{
 }
 footer h1{
     color: white;
+    font-size: 40px;
     /* margin-top: 100px; */
     padding-top: 40px;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 footer p{
     color: white;
     opacity: 0.6;
     font-weight: 100;
+    font-size: 20px;
 }
